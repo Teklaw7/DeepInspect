@@ -1,6 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "header.hpp"
+
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -18,6 +20,7 @@ public:
     ~MainWindow();
 
 private:
-    Ui::MainWindow *ui;
+    Ui::MainWindow * m_ui;
+    Header * m_header;
 };
 #endif // MAINWINDOW_H

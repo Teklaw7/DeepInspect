@@ -1,15 +1,14 @@
-// filepath: /home/timothee/Documents/Projects/DeepInspect/app/header.cpp
 #include "header.hpp"
-#include <QMessageBox>
+#include "ui_header.h"
 
-Header::Header(QWidget *parent) : QWidget(parent), id(0) {
-    // Constructor implementation
+Header::Header(QWidget *parent) :
+    QWidget(parent),
+    ui(new Ui::Header)
+{
+    ui->setupUi(this);
 }
 
-Header::~Header() {
-    // Destructor implementation
-}
-
-void Header::displayMessage() const {
-    QMessageBox::information(nullptr, "Header Message", "This is a message from the Header class.");
+Header::~Header()
+{
+    delete ui;
 }

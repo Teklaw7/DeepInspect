@@ -4,12 +4,13 @@
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+    , m_ui(new Ui::MainWindow), m_header(new Header(this))
 {
-    ui->setupUi(this);
+    m_ui->setupUi(this);
+    m_ui->horizontalLayout->addWidget(m_header);
 }
 
 MainWindow::~MainWindow()
 {
-    delete ui;
+    delete m_ui;
 }

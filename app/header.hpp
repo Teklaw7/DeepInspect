@@ -3,17 +3,20 @@
 
 #include <QWidget>
 
-class Header : public QWidget {
+namespace Ui {
+class Header;
+}
+
+class Header : public QWidget
+{
     Q_OBJECT
 
 public:
-    Header(QWidget *parent = nullptr);
+    explicit Header(QWidget *parent = nullptr);
     ~Header();
 
-    void displayMessage() const;
-
 private:
-    int id;
+    Ui::Header *ui;
 };
 
 #endif // HEADER_HPP
