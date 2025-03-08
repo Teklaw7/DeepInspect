@@ -1,0 +1,19 @@
+# Ignorer le dossier de build
+build/
+
+# Ignorer les fichiers générés par Qt et CMake
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+Makefile
+*.o
+*.obj
+*.so
+*.a
+*.exe
+*.dll
+*.dSYM/
+
