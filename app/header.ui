@@ -19,14 +19,14 @@
      <item>
       <widget class="QPushButton" name="imagesButton">
        <property name="text">
-        <string>Images</string>
+        <string>Inspect Images</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QPushButton" name="reconstructionButton">
        <property name="text">
-        <string>3Dreconstruction</string>
+        <string>3D Reconstruction</string>
        </property>
       </widget>
      </item>
