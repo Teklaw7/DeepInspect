@@ -1,5 +1,5 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#ifndef MAINWINDOW_HPP
+#define MAINWINDOW_HPP
 
 #include "header.hpp"
 
@@ -23,4 +23,4 @@ private:
     Ui::MainWindow * m_ui;
     Header * m_header;
 };
-#endif // MAINWINDOW_H
+#endif // MAINWINDOW_HPP
