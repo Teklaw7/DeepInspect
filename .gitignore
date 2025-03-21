@@ -17,3 +17,6 @@ Makefile
 *.dll
 *.dSYM/
 
+# Ignorer CMakeLists.txt.user
+CMakeLists.txt.user
+
