@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>849</width>
+    <height>607</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,37 +16,31 @@
   <property name="styleSheet">
    <string notr="true"/>
   </property>
-  <widget class="QLineEdit" name="lineEdit">
+  <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>100</y>
-     <width>371</width>
-     <height>241</height>
+     <x>-1</x>
+     <y>-1</y>
+     <width>851</width>
+     <height>611</height>
     </rect>
    </property>
-   <property name="baseSize">
-    <size>
-     <width>0</width>
-     <height>0</height>
-    </size>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>20</pointsize>
-     <bold>true</bold>
-     <kerning>false</kerning>
-    </font>
-   </property>
-   <property name="text">
-    <string>Welcome to Inspect Page</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignmentFlag::AlignCenter</set>
-   </property>
-   <property name="readOnly">
-    <bool>true</bool>
-   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="browsePicturesPushButton">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="pictureLabel">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>

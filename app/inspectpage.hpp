@@ -18,6 +18,9 @@ public:
 
 private:
     Ui::InspectPage *m_ui;
+
+private slots:
+    void browsePictures();
 };
 
 #endif // INSPECTPAGE_HPP
