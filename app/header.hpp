@@ -3,8 +3,9 @@
 
 #include <QWidget>
 
-namespace Ui {
-class Header;
+namespace Ui 
+{
+    class Header;
 }
 
 class Header : public QWidget
@@ -16,7 +17,7 @@ public:
     ~Header();
 
 private:
-    Ui::Header *ui;
+    Ui::Header *m_ui;
 };
 
 #endif // HEADER_HPP

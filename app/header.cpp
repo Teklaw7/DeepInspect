@@ -3,12 +3,12 @@
 
 Header::Header(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::Header)
+    m_ui(new Ui::Header)
 {
-    ui->setupUi(this);
+    m_ui->setupUi(this);
 }
 
 Header::~Header()
 {
-    delete ui;
+    delete m_ui;
 }

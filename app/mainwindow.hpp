@@ -2,6 +2,7 @@
 #define MAINWINDOW_HPP
 
 #include "header.hpp"
+#include "homepage.hpp"
 
 #include <QMainWindow>
 
@@ -22,5 +23,6 @@ public:
 private:
     Ui::MainWindow * m_ui;
     Header * m_header;
+    HomePage * m_homepage;
 };
 #endif // MAINWINDOW_HPP

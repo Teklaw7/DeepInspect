@@ -6,18 +6,39 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>180</width>
-    <height>600</height>
+    <width>159</width>
+    <height>527</height>
    </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>159</width>
+    <height>2000</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Header</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(119, 118, 123);</string>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout">
    <item>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="QPushButton" name="imagesButton">
+       <property name="font">
+        <font>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(222, 221, 218);
+color: rgb(0, 0, 0);</string>
+       </property>
        <property name="text">
         <string>Inspect Images</string>
        </property>
@@ -25,6 +46,15 @@
      </item>
      <item>
       <widget class="QPushButton" name="reconstructionButton">
+       <property name="font">
+        <font>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(222, 221, 218);
+color: rgb(0, 0, 0);</string>
+       </property>
        <property name="text">
         <string>3D Reconstruction</string>
        </property>
