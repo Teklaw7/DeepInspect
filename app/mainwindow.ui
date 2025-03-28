@@ -41,6 +41,13 @@
          </widget>
         </item>
         <item>
+         <widget class="QPushButton" name="rotateFormPushButton">
+          <property name="text">
+           <string>Rotate Form</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <spacer name="verticalSpacer">
           <property name="orientation">
            <enum>Qt::Orientation::Vertical</enum>

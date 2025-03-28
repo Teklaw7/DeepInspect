@@ -9,6 +9,7 @@ class MainWindow;
 
 class HomePage;
 class InspectPage;
+class RotateSquarePage;
 
 class MainWindow : public QMainWindow
 {
@@ -22,11 +23,14 @@ private:
     Ui::MainWindow *m_ui;
     HomePage *m_homePage;
     InspectPage *m_inspectPage;
-
+    RotateSquarePage *m_rotateSquarePage;
+    
 private slots:
     void showInspectPage();
 
     void showHomePage();
+
+    void showRotateSquarePage();
 };
 
 #endif // MAINWINDOW_HPP
